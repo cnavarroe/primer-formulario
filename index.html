@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <div class="título">
+                    <h1>Payment for example</h1>
+                </div>
+                <div class="formulario">
+                    <div class="fondo-rojo">
+                        <h2>
+                            Some field are missing
+                        </h2>
+                    </div>
+                    <div class="uno">
+                        <div>
+                            <label>Card #</label><br>
+                            <input type="text" placeholder="xxxxxxxxxxxxxxxx">
+                        </div>
+                        <div>
+                            <label>Cvc #</label><br>
+                            <input type="text" placeholder="0000">
+                        </div>
+                        <div>
+                            <label>Amount</label><br>
+                            <input type="text" placeholder="Amount">
+                        </div>
+                    </div>
+                    <div class="dos">
+                        <div>
+                            <label>First Name</label><br>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>Last Name</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="tres">
+                        <div>
+                            <label>City</label><br>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>State</label><br>
+                            <select>
+                                <option value="Metropolitana">Metropolitana</option>
+                                <option value="Coquimbo">Coquimbo</option>
+                                <option value="Valparaíso">Valparaíso</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Postal Code</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="cuatro">
+                        <div class="left">
+                            <div class="íconos">
+                                <div class="">
+                                    <div>
+                                        <p>We accept</p>
+                                    </div>
+                                    <div class="con-fondo">
+                                        <input type="radio" name=pago> <i class="fa-brands fa-cc-mastercard"></i>
+                                        <input type="radio" name="pago"> <i class="fa-brands fa-cc-visa"></i>
+                                        <input type="radio" name="pago"> <i class="fa-brands fa-paypal"></i>
+                                        <input type="radio" name="pago"> <i class="fa-brands fa-cc-amex"></i>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rigth">
+                            <p> 
+                                <label>Massage</label><br>
+                                <textarea name="comentario" id="" cols="30" rows="5"></textarea>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pies">
+                    <div class="botones">
+                        <button class="boton1" type="reset">Cancel</button>
+                        <button class="boton2" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script src="https://kit.fontawesome.com/72b67e6e41.js" crossorigin="anonymous"></script>
+    </body>
+</html>

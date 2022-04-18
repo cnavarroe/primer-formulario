@@ -1,0 +1,70 @@
+body{
+    background: gray;
+    border: 1px;
+}
+form{
+    background: white;
+    width: 67%;
+    height: 730px;
+    margin: auto;
+}
+.uno, .dos, .tres, .cuatro {
+    display: flex;
+}
+h1{
+    background: whitesmoke;
+    border: 1px, solid, gray;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+h2{
+    background: rgb(197, 85, 65);
+    padding-left: 10px;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.boton1{
+    background: grey;
+}
+.boton2{
+    background: rgb(14, 136, 192);
+}
+.botones .boton1, .boton2{
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.título{
+    height: 60px;
+}
+.uno, .dos, .tres, .cuatro{
+    width: auto;
+    align-content: space-between;
+    font-size: x-large;
+    justify-content: space-between;
+    padding: 20px;
+}
+.con-fondo{
+    background: grey;
+    height: 30px;
+    padding: 2px;
+}
+
+* input, select{
+    font-size: x-large;
+}
+.formulario{
+    align-content: space-between;
+}
+.pies{
+    padding: 10px;
+    
+}
+.botones{
+    text-align: right;
+}
